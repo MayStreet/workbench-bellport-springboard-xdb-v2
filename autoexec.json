@@ -1,0 +1,9 @@
+{
+  "openDocument":"README.mdp",
+  "getResources": [
+    {
+      "src": "bellport-sandbox/pcap.gz",
+      "dst": "./"
+    }
+  ]
+}
