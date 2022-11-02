@@ -1,4 +1,29 @@
 Springboard
 ===========
 
-TODO.
+This springboard is intended for use in an instance of Workbench in which the Bellport library has been installed.
+
+Getting Started
+---------------
+
+You can view the code for the example application that uses the Bellport library at [`example/xdp_v2_ticker.cpp`](./example/xdp_v2_ticker.cpp).
+
+When you're ready, you can build the app with the step below.
+
+Build
+-----
+To compile the example application that uses the Bellport library, perform the following:
+
+For a debug build:
+```sh
+    cd example/build_debug
+    cmake -DCMAKE_CXX_FLAGS="-fPIC -std=c++17" -DCMAKE_BUILD_TYPE=Debug ../
+    make
+```
+
+For a release build:
+```sh
+    cd example/build_release
+    cmake -DCMAKE_CXX_FLAGS="-fPIC -std=c++17" -DCMAKE_BUILD_TYPE=Release ../
+    make
+```
