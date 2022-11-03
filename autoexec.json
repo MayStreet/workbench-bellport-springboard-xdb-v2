@@ -2,8 +2,13 @@
   "openDocument":"README.mdp",
   "getResources": [
     {
-      "src": "bellport-sandbox/pcap.gz",
-      "dst": "./"
+      "src": "bellport-sandbox/pcaps/xdp_nyse_integrated_Incr_224.0.77.0_22000_A_20220901.pcap.gz",
+      "dst": "example_data/pcaps/xdp_nyse_integrated_Incr_224.0.77.0_22000_A_20220901.pcap.gz",
+      "postProcess": "gunzip"
+    },
+    {
+      "src": "bellport-sandbox/mappings/NYSESymbolMapping_20220901.xml",
+      "dst": "example_data/NYSESymbolMapping_20220901.xml"
     }
   ]
 }
