@@ -1,6 +1,6 @@
 {
   "openDocument":"README.mdp",
-  "getResources": [
+  "resources": [
     {
       "src": "bellport-sandbox/pcaps/xdp_nyse_integrated_Incr_224.0.77.0_22000_A_20220901.pcap.gz",
       "dst": "example_data/pcaps/xdp_nyse_integrated_Incr_224.0.77.0_22000_A_20220901.pcap.gz",
