@@ -8,7 +8,7 @@ Getting Started
 
 You can view the code for the example application that uses the Bellport library at [`example/xdp_v2_ticker.cpp`](./example/xdp_v2_ticker.cpp).
 
-When you're ready, you can build the app with the step below.
+When you're ready, you can build the app with the steps below.
 
 Build
 -----
@@ -26,4 +26,16 @@ For a release build:
     cd example/build_release
     cmake -DCMAKE_CXX_FLAGS="-fPIC -std=c++17" -DCMAKE_BUILD_TYPE=Release ../
     make
+```
+
+Run
+---
+
+From either of the build directories:
+
+```sh
+# To see the help text:
+./xdp_v2_ticker
+# To run against the springboard example data:
+./xdp_v2_ticker --pcaps ../../example_data/pcaps/*.pcap --symbol-map-file ../../example_data/NYSESymbolMapping_20220901.xml --cfg ../xdp_v2_ticker.cfg
 ```
