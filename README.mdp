@@ -35,7 +35,7 @@ From either of the build directories:
 
 ```sh
 # To see the help text:
-./xdp_v2_ticker
+./xdp_v2_ticker --help
 # To run against the springboard example data:
 ./xdp_v2_ticker --pcaps ../../example_data/pcaps/*.pcap --symbol-map-file ../../example_data/NYSESymbolMapping_20220901.xml --cfg ../xdp_v2_ticker.cfg
 ```
